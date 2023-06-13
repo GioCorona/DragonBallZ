@@ -16,7 +16,7 @@ nombre.on("change", () => {
 
 	if (nombre.val() == "goku") {
 		per_nombre.html("Goku");
-		per_img.attr("src", "/Los-Gokus/images/goku_6.jfif");
+		per_img.attr("src", "/DragonBallZ/images/goku_6.jfif");
 		per_img.attr("alt", "Goku");
 		per_img.attr("onclick", "page('goku')");
 		gokus.removeClass("d-none");
@@ -32,7 +32,7 @@ nombre.on("change", () => {
 		raza.val("Saiyajin");
 	} else if (nombre.val() == "vegeta") {
 		per_nombre.html("Vegeta");
-		per_img.attr("src", "/Los-Gokus/images/vegeta_2.webp");
+		per_img.attr("src", "/DragonBallZ/images/vegeta_2.webp");
 		per_img.attr("alt", "Vegeta");
 		per_img.attr("onclick", "page('vegeta')");
 		gokus.removeClass("d-none");
@@ -46,7 +46,7 @@ nombre.on("change", () => {
 		raza.val("Saiyajin");
 	} else if (nombre.val() == "krillin") {
 		per_nombre.html("Krillin");
-		per_img.attr("src", "/Los-Gokus/images/krillin.jpg");
+		per_img.attr("src", "/DragonBallZ/images/krillin.jpg");
 		per_img.attr("alt", "Krillin");
 		per_img.attr("onclick", "page('krillin')");
 		gokus.removeClass("d-none");
@@ -57,7 +57,7 @@ nombre.on("change", () => {
 		raza.val("Humano");
 	} else if (nombre.val() == "trunks") {
 		per_nombre.html("Trunks");
-		per_img.attr("src", "/Los-Gokus/images/trunks.jpg");
+		per_img.attr("src", "/DragonBallZ/images/trunks.jpg");
 		per_img.attr("alt", "Trunks");
 		per_img.attr("onclick", "page('trunks')");
 		gokus.removeClass("d-none");
@@ -68,7 +68,7 @@ nombre.on("change", () => {
 		raza.val("Saiyajin-Humano");
 	} else if (nombre.val() == "piccolo") {
 		per_nombre.html("Piccolo");
-		per_img.attr("src", "/Los-Gokus/images/piccolo_1.jpg");
+		per_img.attr("src", "/DragonBallZ/images/piccolo_1.jpg");
 		per_img.attr("alt", "Piccolo");
 		per_img.attr("onclick", "page('piccolo')");
 		gokus.removeClass("d-none");
@@ -82,7 +82,7 @@ nombre.on("change", () => {
 		raza.val("Namekuseijin");
 	} else if (nombre.val() == "dende") {
 		per_nombre.html("Dende");
-		per_img.attr("src", "/Los-Gokus/images/dende.jpg");
+		per_img.attr("src", "/DragonBallZ/images/dende.jpg");
 		per_img.attr("alt", "Dende");
 		per_img.attr("onclick", "page('dende')");
 		gokus.removeClass("d-none");
@@ -93,7 +93,7 @@ nombre.on("change", () => {
 		raza.val("Namekuseijin");
 	} else if (nombre.val() == "buu") {
 		per_nombre.html("Majin Buu");
-		per_img.attr("src", "/Los-Gokus/images/boo_3.jpg");
+		per_img.attr("src", "/DragonBallZ/images/boo_3.jpg");
 		per_img.attr("alt", "Majin Buu");
 		per_img.attr("onclick", "page('buu')");
 		gokus.removeClass("d-none");
@@ -107,7 +107,7 @@ nombre.on("change", () => {
 		raza.val("Demonio");
 	} else if (nombre.val() == "black") {
 		per_nombre.html("Black Goku");
-		per_img.attr("src", "/Los-Gokus/images/black_1.jfif");
+		per_img.attr("src", "/DragonBallZ/images/black_1.jfif");
 		per_img.attr("alt", "Black Goku");
 		per_img.attr("onclick", "page('black')");
 		gokus.removeClass("d-none");
@@ -119,7 +119,7 @@ nombre.on("change", () => {
 		raza.val("Saiyajin-Kaioshin");
 	} else if (nombre.val() == "shin") {
 		per_nombre.html("Shin");
-		per_img.attr("src", "/Los-Gokus/images/shin.webp");
+		per_img.attr("src", "/DragonBallZ/images/shin.webp");
 		per_img.attr("alt", "Shin");
 		per_img.attr("onclick", "page('shin')");
 		gokus.removeClass("d-none");
@@ -135,7 +135,7 @@ nombre.on("change", () => {
 	}
     personaje.text("");
     comparacion.html(def);
-    imagen.attr("src", "/Los-Gokus/images/camara.png");
+    imagen.attr("src", "/DragonBallZ/images/camara.png");
 	transformacion.html(opc);
 });
 
@@ -151,103 +151,103 @@ transformacion.on("change", () => {
 	}
 	switch (transformacion.val()) {
 		case "1":
-			imagen.attr("src", "/Los-Gokus/images/goku_1.webp");
+			imagen.attr("src", "/DragonBallZ/images/goku_1.webp");
 			comparacion.html(pierde);
 			break;
 		case "2":
-			imagen.attr("src", "/Los-Gokus/images/goku_2.jpg");
+			imagen.attr("src", "/DragonBallZ/images/goku_2.jpg");
 			comparacion.html(pierde);
 			break;
 		case "3":
-			imagen.attr("src", "/Los-Gokus/images/goku_3.webp");
+			imagen.attr("src", "/DragonBallZ/images/goku_3.webp");
 			comparacion.html(gana);
 			break;
 		case "4":
-			imagen.attr("src", "/Los-Gokus/images/goku_4.jpg");
+			imagen.attr("src", "/DragonBallZ/images/goku_4.jpg");
 			comparacion.html(gana);
 			break;
 		case "5":
-			imagen.attr("src", "/Los-Gokus/images/goku_5.jpg");
+			imagen.attr("src", "/DragonBallZ/images/goku_5.jpg");
 			comparacion.html(gana);
 			break;
 		case "6":
-			imagen.attr("src", "/Los-Gokus/images/goku_6.jfif");
+			imagen.attr("src", "/DragonBallZ/images/goku_6.jfif");
 			comparacion.html(gana);
 			break;
 		case "7":
-			imagen.attr("src", "/Los-Gokus/images/vegeta_1.jfif");
+			imagen.attr("src", "/DragonBallZ/images/vegeta_1.jfif");
 			comparacion.html(gana);
 			break;
 		case "8":
-			imagen.attr("src", "/Los-Gokus/images/vegeta_2.webp");
+			imagen.attr("src", "/DragonBallZ/images/vegeta_2.webp");
 			comparacion.html(gana);
 			break;
 		case "9":
-			imagen.attr("src", "/Los-Gokus/images/vegeta_3.webp");
+			imagen.attr("src", "/DragonBallZ/images/vegeta_3.webp");
 			comparacion.html(gana);
 			break;
 		case "10":
-			imagen.attr("src", "/Los-Gokus/images/vegeta_4.jpg");
+			imagen.attr("src", "/DragonBallZ/images/vegeta_4.jpg");
 			comparacion.html(gana);
 			break;
 		case "11":
-			imagen.attr("src", "/Los-Gokus/images/krillin.jpg");
+			imagen.attr("src", "/DragonBallZ/images/krillin.jpg");
 			comparacion.html(pierde);
 			break;
 		case "12":
-			imagen.attr("src", "/Los-Gokus/images/trunks.jpg");
+			imagen.attr("src", "/DragonBallZ/images/trunks.jpg");
 			comparacion.html(gana);
 			break;
 		case "13":
-			imagen.attr("src", "/Los-Gokus/images/piccolo_1.jpg");
+			imagen.attr("src", "/DragonBallZ/images/piccolo_1.jpg");
 			comparacion.html(gana);
 			break;
 		case "14":
-			imagen.attr("src", "/Los-Gokus/images/piccolo_2.jpg");
+			imagen.attr("src", "/DragonBallZ/images/piccolo_2.jpg");
 			comparacion.html(gana);
 			break;
 		case "15":
-			imagen.attr("src", "/Los-Gokus/images/piccolo_3.jfif");
+			imagen.attr("src", "/DragonBallZ/images/piccolo_3.jfif");
 			comparacion.html(gana);
 			break;
 		case "16":
-			imagen.attr("src", "/Los-Gokus/images/piccolo_4.jpg");
+			imagen.attr("src", "/DragonBallZ/images/piccolo_4.jpg");
 			comparacion.html(gana);
 			break;
 		case "17":
-			imagen.attr("src", "/Los-Gokus/images/dende.jpg");
+			imagen.attr("src", "/DragonBallZ/images/dende.jpg");
 			comparacion.html(pierde);
 			break;
 		case "18":
-			imagen.attr("src", "/Los-Gokus/images/boo_1.jpg");
+			imagen.attr("src", "/DragonBallZ/images/boo_1.jpg");
 			comparacion.html(gana);
 			break;
 		case "19":
-			imagen.attr("src", "/Los-Gokus/images/boo_2.jpg");
+			imagen.attr("src", "/DragonBallZ/images/boo_2.jpg");
 			comparacion.html(gana);
 			break;
 		case "20":
-			imagen.attr("src", "/Los-Gokus/images/boo_3.jpg");
+			imagen.attr("src", "/DragonBallZ/images/boo_3.jpg");
 			comparacion.html(pierde);
 			break;
 		case "21":
-			imagen.attr("src", "/Los-Gokus/images/boo_4.jpg");
+			imagen.attr("src", "/DragonBallZ/images/boo_4.jpg");
 			comparacion.html(gana);
 			break;
 		case "22":
-			imagen.attr("src", "/Los-Gokus/images/black_1.jfif");
+			imagen.attr("src", "/DragonBallZ/images/black_1.jfif");
 			comparacion.html(gana);
 			break;
 		case "23":
-			imagen.attr("src", "/Los-Gokus/images/black_2.webp");
+			imagen.attr("src", "/DragonBallZ/images/black_2.webp");
 			comparacion.html(gana);
 			break;
 		case "24":
-			imagen.attr("src", "/Los-Gokus/images/shin.webp");
+			imagen.attr("src", "/DragonBallZ/images/shin.webp");
 			comparacion.html(gana);
 			break;
 		default:
-			imagen.attr("src", "/Los-Gokus/images/camara.png");
+			imagen.attr("src", "/DragonBallZ/images/camara.png");
 			comparacion.html(def);
 			personaje.text("");
 			break;
@@ -255,5 +255,5 @@ transformacion.on("change", () => {
 });
 
 function page(pag) {
-	$(location).attr("href", "/Los-Gokus/res/pages/descripciones.html?personaje="+ pag);
+	$(location).attr("href", "/DragonBallZ/res/pages/descripciones.html?personaje="+ pag);
 }
