@@ -1,38 +1,38 @@
 {
 	"short_name": "DBZ",
 	"name": "Dragon Ball Z",
-    "start_url": "/Los-Gokus/index.html",
+    "start_url": "/DragonBallZ/index.html",
 	"icons": [
 		{
-			"src": "/Los-Gokus/images/favicons/favicon32x32.png",
+			"src": "/DragonBallZ/images/favicons/favicon32x32.png",
 			"type": "image/png",
 			"sizes": "32x32"
 		},
 		{
-			"src": "/Los-Gokus/images/favicons/favicon48x48.png",
+			"src": "/DragonBallZ/images/favicons/favicon48x48.png",
 			"type": "image/png",
 			"sizes": "48x48"
 		},
 		{
-			"src": "/Los-Gokus/images/favicons/favicon64x64.png",
+			"src": "/DragonBallZ/images/favicons/favicon64x64.png",
 			"type": "image/png",
 			"sizes": "64x64"
 		},
         {
-			"src": "/Los-Gokus/images/favicons/favicon72x72.png",
+			"src": "/DragonBallZ/images/favicons/favicon72x72.png",
 			"type": "image/png",
 			"sizes": "72x72"
 		},
         {
-			"src": "/Los-Gokus/images/favicons/favicon96x96.png",
+			"src": "/DragonBallZ/images/favicons/favicon96x96.png",
 			"type": "image/png",
 			"sizes": "96x96"
 		},{
-			"src": "/Los-Gokus/images/favicons/favicon128x128.png",
+			"src": "/DragonBallZ/images/favicons/favicon128x128.png",
 			"type": "image/png",
 			"sizes": "128x128"
 		},{
-			"src": "/Los-Gokus/images/favicons/favicon256x256.png",
+			"src": "/DragonBallZ/images/favicons/favicon256x256.png",
 			"type": "image/png",
 			"sizes": "256x256"
 		}
