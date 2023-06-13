@@ -1,0 +1,16 @@
+body{
+    background-color: rgba(240, 230, 140, 0.4);
+}
+
+img.img-fluid{
+    width: 100%;
+    max-width: 250px;
+}
+
+.img2:hover{
+    transform: translate(0px,-10px);
+}
+
+.click{
+    cursor: pointer;
+}
