@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Mario Soto & Ale Rocafuerte">
+    <link rel="shortcut icon" href="/Los-Gokus/favicon.png" type="image/png">
+    <link rel="stylesheet" href="/Los-Gokus/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/Los-Gokus/css/fontawesome.min.css">
+    <link rel="stylesheet" href="/Los-Gokus/css/style.css">
+    <link rel="manifest" href="/Los-Gokus/manifest.json">
+    <title>DBZ</title>
+</head>
+
+<body>
+    <h1 class="text-center mt-5"><span class="text-warning">Dragon</span> <span class="text-danger">Ball</span>
+    </h1>
+    <div class="container mt-5">
+        <div class="row">
+            <div class="col-12 col-md-5 col-xl-4">
+                <form action="" class="mt-4">
+                    <div class="form-group">
+                        <label for="nombre" class="form-label">Personaje:</label>
+                        <select name="nombre" id="nombre" class="form-select">
+                            <option>Seleccione...</option>
+                            <option value="goku">Goku</option>
+                            <option value="vegeta">Vegeta</option>
+                            <option value="krillin">Krillin</option>
+                            <option value="trunks">Trunks</option>
+                            <option value="piccolo">Piccolo</option>
+                            <option value="dende">Dende</option>
+                            <option value="buu">Majin Buu</option>
+                            <option value="black">Black Goku</option>
+                            <option value="shin">Shin</option>
+                        </select>
+                    </div>
+                    <div class="form-group mt-4">
+                        <label for="transformacion" class="form-label">Transformación:</label>
+                        <select name="transformacion" id="transformacion" class="form-select" disabled>
+                            <option>Seleccione...</option>
+                        </select>
+                    </div>
+                    <div class="form-group mt-4">
+                        <label for="raza" class="form-label">Raza:</label>
+                        <input type="text" name="raza" id="raza"
+                            class="form-control-plaintext border-0 border-bottom border-dark" readonly>
+                    </div>
+                </form>
+            </div>
+
+            <div class="col-12 col-md-7 col-xl-8 d-flex align-items-center justify-content-evenly">
+                <div class="d-flex align-items-center"">
+                    <div class=" d-inline-block">
+                    <span id="nombre-p1" class="d-block"></span>
+                    <img id="img-1" src="/Los-Gokus/images/camara.png" alt="Personaje 1"
+                        class="img-fluid rounded float-end mt-3">
+                </div>
+            </div>
+            <div class="d-flex col-3 justify-content-center align-items-center"">
+                <h2 id="comparacion"><i class="fa-solid" style="font-size: 5.3rem;"></i></h2>
+            </div>
+            <div class="d-flex align-items-center">
+                <div class="d-inline-block">
+                    <span class="d-block">Androide #17</span>
+                    <img src="/Los-Gokus/images/androide.webp" alt="Androide #17" class="img-fluid rounded float-start mt-3">
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <div id="gokus" class="text-center mt-4 d-none">
+        <div class="d-inline-block">
+            <span id="per-nombre" class="d-block">Nombre del personaje</span>
+            <img onclick="page(null);" id="per-img" src="/Los-Gokus/images/camara.png" alt="Personaje" class="img-fluid rounded float-start mt-3 img-thumbnail img2 click">
+        </div>
+    </div>
+    <script src="/Los-Gokus/js/jquery.min.js"></script>
+    <script src="/Los-Gokus/js/bootstrap.bundle.min.js"></script>
+    <script src="/Los-Gokus/js/fontawesome.min.js"></script>
+    <script src="/Los-Gokus/js/app.js"></script>
+    <script src="/Los-Gokus/js/script.js"></script>
+</body>
+
+</html>
