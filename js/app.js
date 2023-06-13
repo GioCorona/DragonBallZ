@@ -1,3 +1,3 @@
 if (navigator.serviceWorker) {
-	navigator.serviceWorker.register("/Los-Gokus/sw.js");
+	navigator.serviceWorker.register("/DragonBallZ/sw.js");
 }
